@@ -1,0 +1,78 @@
+{
+  "name": "v-snippets",
+  "displayName": "v-snippets",
+  "description": "",
+  "version": "0.0.1",
+  "publisher": "weilao",
+  "engines": {
+    "vscode": "^1.24.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weilao/v-snippets.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/weilao/v-snippets/issues"
+  },
+  "homepage": "https://github.com/weilao/v-snippets#readme",
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/console.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/console.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/console.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/console.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/keyword.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/keyword.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/keyword.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/keyword.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/function.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/function.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/function.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/function.json"
+      }
+    ]
+  }
+}
