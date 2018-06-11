@@ -89,12 +89,26 @@ function ${1:name}(){
 })()
 ```
 
-### Language Keyword  Snippets
+`>` → () => $1
+
+```javascript
+($1) => $2
+```
+
+`>{` → () => {$1}
+
+```javascript
+($1) => {
+  $2
+}
+```
+
+### Language Keyword Snippets
 
 `a` → async
 
 ```javascript
-async
+async 
 ```
 
 `d` → debugger;
@@ -124,10 +138,8 @@ this
 `imp` → import Module from 'module'
 
 ```javascript
-import ${2} from '${1}'
+import $2 from '$1'
 ```
-
-## Release Notes
 
 ### 1.0.0
 
